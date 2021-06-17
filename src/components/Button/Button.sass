@@ -1,0 +1,37 @@
+$color-blue: blue
+$color-gray: gray
+$color-red: red
+$color-black: black
+$color-lightgray: lightgray
+
+.button
+  min-width: 150px
+  height: 35px
+  font-size: 13px
+  border-radius: 3px
+  border: none
+  &:active
+    border: 0.5px outset
+  &:hover
+    background-color: lightgray
+
+.color
+  &-blue
+    color: $color-blue
+  &-gray
+    color: $color-gray
+  &-red
+    color: $color-red
+  &-black
+    color: $color-black
+
+.size
+  &-xl
+    height: 50px
+    min-width: 200px
+  &-md
+    height: 35px
+    min-width: 150px
+  &-xs
+    height: 20px
+    min-width: 100px
