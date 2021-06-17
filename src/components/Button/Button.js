@@ -3,7 +3,10 @@ import PropTypes from "prop-types";
 import "./Button.sass";
 
 function Button(props) {
-  return <button onClick={props.action} className={`button color-${props.color} size-${props.size}`}>
+  return <button
+    data-testid={"button-component"}
+    onClick={props.action}
+    className={`button color-${props.color} size-${props.size}`}>
     {props.text}
   </button>
 }

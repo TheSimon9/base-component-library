@@ -16,3 +16,19 @@ If you want to start Styleguidist docs, you should use the following command
 
     npm run styleguidist
     
+In order to use this component library in your project, you have to publish it to a npm registry or create a tarball which will contains the module bundled.
+
+## Use the component library with npm pack
+Build the library:
+
+    npm run build
+
+Create the tarball:
+        
+    npm pack
+    
+Copy the generated zip file in your project root and install it:
+
+    npm install [path to the zip]
+    
+Enjoy it :) 

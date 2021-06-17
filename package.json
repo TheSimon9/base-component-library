@@ -1,7 +1,7 @@
 {
-  "name": "base-component-library",
+  "name": "@thesimon/base-component-library",
   "version": "0.1.0",
-  "private": true,
+  "author": "thesimon",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
@@ -51,5 +51,16 @@
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-sass": "^1.2.2"
-  }
+  },
+  "description": "I always liked the idea of building code as lego-block, re-usable in various context, allowing us to create fantastic projects with minimum effort.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSimon9/Base-component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSimon9/Base-component-library/issues"
+  },
+  "homepage": "https://github.com/TheSimon9/Base-component-library#readme"
 }
